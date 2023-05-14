@@ -1,0 +1,6 @@
+//1vw等于7.5rpx
+$rpx:7.5;
+
+@function rpx($data){
+    @return  calc($data/7.5)+vw;
+}
